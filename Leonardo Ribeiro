@@ -1,0 +1,36 @@
+# INTERDISCIPLINAR-INDIVÍDUO-PTI
+Projeto desenvolvido conforme solicitado no PTI - Anhanguera.
+
+#INTUITO DO PROJETO
+Crie uma página HTML com um formulário que consulte os seguintes campos da web:
+
+• Usuário
+
+• Senha
+
+Esta página deve conter um botão “Cancelar” que realiza a limpeza dos dados do formulário
+e um botão “Enviar” que realizara a seguinte ação:
+
+• Envio das informações da página do formulário via POST para uma outra web HTML
+comemorando uma mensagem de boas-vindas.
+
+# COMO O PROJETO FOI FEITO
+
+O projeto foi desenvolvido com NodeJS Express, HTML5 e CSS3.
+Dependências:
+
+    "body-parser": "^1.20.1", para converter o POST urlencoded
+    "ejs": "^3.1.8", para renderizar o html com o valor do POST
+    "expresso": "^4.18.2",
+    "nodemon": "^2.0.20"
+
+# COMO RODAR O PROJETO
+
+- npm instalar
+- npm início
+- http://localhost:3000/
+
+# IMAGENS
+ 
+![imagem](https://user-images.githubusercontent.com/66140734/196006441-df5b46b1-0cf0-43f0-b67b-365097d46966.png)
+![imagem](https://user-images.githubusercontent.com/66140734/196006453-73717d69-d153-4069-b55a-9dbdaa9d3b43.png)
